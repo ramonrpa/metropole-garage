@@ -4,8 +4,9 @@ Sistema de garam para o servidor **Metrópole**, utilizando **TypeScript**, **Re
 
 ## 🎥 Vídeo de Demonstração
 
-Veja o sistema em funcionamento:
+Veja o sistema em funcionamento:  
 [![Vídeo de demonstração](https://cdn.ramonrpa.com.br/public/metropole-garage.png)](https://cdn.ramonrpa.com.br/public/metropole-garage.mp4)
+[Ver vídeo](https://cdn.ramonrpa.com.br/public/metropole-garage.mp4)
 
 ## 🚀 Tecnologias Utilizadas
 
