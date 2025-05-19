@@ -1,0 +1,16 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_init
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: metropole
+      MYSQL_DATABASE: metropole
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+
+volumes:
+  db_data:

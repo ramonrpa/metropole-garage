@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @media screen and (max-width: 1124px) {
+    html {
+      font-size: 0.875rem; /* 14px */
+    }
+  }
+
+  @media screen and (max-width: 1024) {
+    html {
+      font-size: 0.75rem; /* 12px */
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    html {
+      font-size: 0.625rem; /* 10px */
+    }
+  }
+}

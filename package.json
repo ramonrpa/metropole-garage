@@ -1,0 +1,21 @@
+{
+  "name": "metropole-garage",
+  "version": "1.0.0",
+  "description": "Sistema de Garagem",
+  "author": "Ramon Rodrigues",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "backend:build:watch": "npm --prefix backend run build:watch",
+    "backend:build": "npm --prefix backend run build",
+    "frontend:build": "npm --prefix frontend run build",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "build": "npm run backend:build && npm run frontend:build"
+  },
+  "workspaces": [
+    "backend",
+    "frontend",
+    "common"
+  ]
+}
